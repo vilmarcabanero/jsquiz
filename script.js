@@ -47,8 +47,8 @@ const buildQuiz = () => {
 		for (letter in currentQuestion.answers) {
 			// ...add an HTML radio button
 			answers.push(
-				`<label>
-            <input type="radio" class="radio" name="question${questionNumber}" value="${letter}">
+				`<label class="label">
+            <input type="radio" name="question${questionNumber}" value="${letter}">
             ${letter} :
             ${currentQuestion.answers[letter]}
           </label> <br/>`
