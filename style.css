@@ -1,6 +1,9 @@
 body {
   margin: 0;
   padding: 0;
+  font-size: 20px;
+	font-family: sans-serif;
+	color: #333;
 }
 
 .item {
@@ -25,15 +28,21 @@ body {
 }
 
 .question {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
 .label {
   width: 100%;
   cursor: pointer;
+  display: block;
 }
 
 .label:hover {
-  font-weight: 500;
+  opacity: 0.8;
+}
+
+.label > input {
+  cursor: pointer;
 }
 
